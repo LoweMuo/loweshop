@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2edb015b-5226-47fd-8cfa-163c2fbc6b59" name="Default Changelist" comment="" />
+    <list default="true" id="2edb015b-5226-47fd-8cfa-163c2fbc6b59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/CodeResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exceptions/BusinessException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Wx/WxController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/BaseServices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/RedisKeyServices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/RedisModelServices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/UserServices.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/wx.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/AuthTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/AuthTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HelloController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Wx/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +55,11 @@
     <pharConfigPath>$USER_HOME$/.composer/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpDebugGeneral" xdebug_debug_port="9001" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$USER_HOME$/.composer/vendor/illuminate/container" />
       <path value="$USER_HOME$/.composer/vendor/illuminate/support" />
@@ -93,31 +140,94 @@
       <path value="$USER_HOME$/.composer/vendor/squizlabs/php_codesniffer" />
       <path value="$USER_HOME$/.composer/vendor/tightenco/collect" />
       <path value="$USER_HOME$/.composer/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpunit" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lQJRUPhebSICQmdBgR11dsnChc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Services" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wnmp\nginx\www\loweshop\app\Services" />
+      <recent name="D:\wnmp\nginx\www\loweshop\tests\Unit" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wnmp\nginx\www\loweshop\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.AuthTest.testCaptcha">
+    <configuration name="AuthTest.testBasicTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\AuthTest" file="$PROJECT_DIR$/tests/Feature/AuthTest.php" method="testBasicTest" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthTest.testCaptcha" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\AuthTest" file="$PROJECT_DIR$/tests/Feature/AuthTest.php" method="testCaptcha" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthTest.testCheckCaptcha" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\AuthTest" file="$PROJECT_DIR$/tests/Unit/AuthTest.php" method="testCheckCaptcha" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthTest.testRegister (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="Tests\Feature\AuthTest" file="$PROJECT_DIR$/tests/Feature/AuthTest.php" method="testRegister" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthTest.testRegister" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="Tests\Feature\AuthTest" file="$PROJECT_DIR$/tests/Feature/AuthTest.php" method="testRegister" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.AuthTest.testCaptcha" />
+        <item itemvalue="PHPUnit.AuthTest.testRegister (1)" />
+        <item itemvalue="PHPUnit.AuthTest.testCheckCaptcha" />
+        <item itemvalue="PHPUnit.AuthTest.testBasicTest" />
+        <item itemvalue="PHPUnit.AuthTest.testRegister" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2edb015b-5226-47fd-8cfa-163c2fbc6b59" name="Default Changelist" comment="" />
@@ -126,13 +236,125 @@
       <option name="presentableId" value="Default" />
       <updated>1607523373333</updated>
       <workItem from="1607523374365" duration="709000" />
+      <workItem from="1616566034466" duration="1648000" />
+      <workItem from="1616567823720" duration="631000" />
+      <workItem from="1616654046003" duration="80000" />
+      <workItem from="1616654167742" duration="3517000" />
+      <workItem from="1616657959289" duration="12191000" />
+      <workItem from="1616721171586" duration="16587000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="624" y="102" width="685" height="846" key="#AuthTest.testRegister" timestamp="1616656094825">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="624" y="102" width="685" height="846" key="#AuthTest.testRegister/0.0.1920.1050@0.0.1920.1050" timestamp="1616656094825" />
+    <state x="624" y="102" width="812" height="846" key="#AuthTest.testRegister_(1)" timestamp="1616659027945">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="624" y="102" width="812" height="846" key="#AuthTest.testRegister_(1)/0.0.1920.1050@0.0.1920.1050" timestamp="1616659027945" />
+    <state x="540" y="180" key="#CLI_Interpreters" timestamp="1616659292497">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="180" key="#CLI_Interpreters/0.0.1920.1050@0.0.1920.1050" timestamp="1616659292497" />
+    <state x="552" y="183" key="#Deployment" timestamp="1616659521611">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Deployment/0.0.1920.1050@0.0.1920.1050" timestamp="1616659521611" />
+    <state x="586" y="203" key="#Inspections" timestamp="1616742572927">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="203" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1616742572927" />
+    <state x="842" y="387" key="#Notifications" timestamp="1616655464547">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="842" y="387" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1616655464547" />
+    <state x="642" y="167" key="#PHP" timestamp="1616656034154">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="642" y="167" key="#PHP/0.0.1920.1050@0.0.1920.1050" timestamp="1616656034154" />
+    <state x="540" y="180" key="#Test_Frameworks" timestamp="1616654755913">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="180" key="#Test_Frameworks/0.0.1920.1050@0.0.1920.1050" timestamp="1616654755913" />
+    <state x="225" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616655071653">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="225" y="227" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616655071653" />
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1616742521140">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616742521140" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1616659283518">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1616659283518" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1616744719212">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1616744719212" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1616744719212">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1616744719212" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1616744719212">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1616744719212" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1616744719212">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1616744719212" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1616743308252">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1616743308252" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1616743308251">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1616743308251" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1616743308251">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1616743308251" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1616743308251">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1616743308251" />
+    <state x="907" y="400" key="NewPhpClassDialog" timestamp="1616729206476">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="907" y="400" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1616729206476" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1616742902707">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1616742902707" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1616728686016">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1616728686016" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
