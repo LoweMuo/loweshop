@@ -49,7 +49,7 @@ class AuthController extends WxController
             return $this->fail(CodeResponse::AUTH_MOBILE_REGISTERED);//手机号已被注册
         }
         //验证验证码是否正确
-        UserServices::getInstance()->checkSmsCode($mobile, $userServices::REGISTER_SMS_TYPE, $code);
+        UserServices::getInstance()->checkSmsCode($mobile, UserServices::REGISTER_SMS_TYPE, $code);
 
         $user_model = new User();
         $user_model->username = $username;
